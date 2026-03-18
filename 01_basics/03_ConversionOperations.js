@@ -28,3 +28,9 @@ console.log("1" + 2 + 2)
 console.log(1 + 3 + "3")
 
 //=== strictly check checks both value and datatype
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(primitive) & Heap(non-primitive)
+
+

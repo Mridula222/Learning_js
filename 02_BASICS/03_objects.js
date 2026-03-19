@@ -15,13 +15,19 @@ const IsUser = {
     [mySym1] : "mykey1"
 }
 
-console.log(IsUser.name);
-console.log(IsUser["name"]);
-console.log(IsUser[mySym1]);
+// console.log(IsUser.name);
+// console.log(IsUser["name"]);
+// console.log(IsUser[mySym1]);
 
 IsUser.email = "Anshika@gmail.com"
-Object.freeze(IsUser)
+// Object.freeze(IsUser)
 IsUser.email = "mrdula@gmail.com"
-console.log(IsUser.email);
+// console.log(IsUser.email);
 
+IsUser.greeting = function(){
+    console.log(`hello js user ${this.name}`);
+}
+
+IsUser.greeting()
+// console.log(IsUser.greeting());
 

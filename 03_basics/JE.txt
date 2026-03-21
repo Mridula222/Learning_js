@@ -1,0 +1,14 @@
+JavaScript Execution Context
+
+{} -> Global exe Context refers to this variable
+
+in browser the value of this is window obj
+
+->GEC
+->funcn exec Context
+->Eval exec Context
+
+{} = -> memory creation phase , -> exec phase
+
+//ss-21st match 2026
+

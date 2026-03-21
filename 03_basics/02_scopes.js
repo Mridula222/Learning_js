@@ -12,10 +12,24 @@ function one(){
     const username = "Anshika"
     function two(){
         const website = "youtube"
-        console.log(username);
+        // console.log(username);
     }
-    console.log(website);
-
+    // console.log(website);
     two()
-    one()
 }
+one()
+
+
+//+++++++++++++++++++++++++++++++++++Note+++++++++++++++++++++++++++++++++
+addOne(5)
+function addOne(num){
+    return num + 1
+}
+
+addTwo(2)  //it will show an error
+const addTwo = function(num){
+    return num + 2;
+}
+
+
+
